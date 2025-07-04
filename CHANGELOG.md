@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.3](https://github.com/nozloy/sadykoff-cli/compare/v1.0.2...v1.0.3) (2025-07-04)
+
+
+### Bug Fixes
+
+* поправлено распознование next ([9ffd1f6](https://github.com/nozloy/sadykoff-cli/commit/9ffd1f69b9efca3e1bb1ca783ed1b891147eef14))
+
 ### [1.0.2](https://github.com/nozloy/sadykoff-cli/compare/v1.0.1...v1.0.2) (2025-07-04)
 
 
