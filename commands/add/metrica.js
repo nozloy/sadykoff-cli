@@ -6,9 +6,11 @@ module.exports = function addMetrica() {
 	const projectRoot = process.cwd()
 
 	try {
-		require.resolve('next')
+		require.resolve('next', { paths: [process.cwd()] })
 	} catch {
-		console.error('❌ Это не проект Next.js (модуль next не найден).')
+		console.error(
+			'❌ Это не проект Next.js (модуль next не найден в текущем проекте).',
+		)
 		process.exit(1)
 	}
 
