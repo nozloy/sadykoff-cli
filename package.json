@@ -1,0 +1,9 @@
+{
+  "name": "sadykoff",
+  "version": "1.0.0",
+  "bin": {
+    "sadykoff": "bin/index.js"
+  },
+  "type": "commonjs",
+  "dependencies": {}
+}
