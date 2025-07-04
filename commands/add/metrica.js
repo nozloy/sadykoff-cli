@@ -5,16 +5,10 @@ module.exports = function addMetrica() {
 	const log = msg => console.log('🟢', msg)
 	const projectRoot = process.cwd()
 
-	const isNext =
-		fs.existsSync('next.config.js') ||
-		fs.existsSync('next.config.ts') ||
-		fs.existsSync('pages') ||
-		fs.existsSync('app') ||
-		fs.existsSync('src/pages') ||
-		fs.existsSync('src/app') ||
-		fs.existsSync('node_modules/next')
-	if (!isNext) {
-		console.error('❌ Это не проект Next.js.')
+	try {
+		require.resolve('next')
+	} catch {
+		console.error('❌ Это не проект Next.js (модуль next не найден).')
 		process.exit(1)
 	}
 
