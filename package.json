@@ -1,6 +1,6 @@
 {
   "name": "sadykoff",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "CLI для добавления функционала в Next.js",
   "bin": {
     "sadykoff": "bin/index.js"
